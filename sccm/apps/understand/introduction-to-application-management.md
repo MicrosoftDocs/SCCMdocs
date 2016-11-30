@@ -12,10 +12,15 @@ ms.tgt_pltfrm: na
 ms.topic: get-started-article
 ms.assetid: 08f711ba-83bf-4b5f-9520-a0778c6ae7eb
 caps.latest.revision: 18
-author: robstackmsftms.author: robstackmanager: angrobe
+author: robstackmsft
+ms.author: robstack
+manager: angrobe
 
 ---
-# Introduction to application management in System Center Configuration Manager*Applies to: System Center Configuration Manager (Current Branch)*
+# Introduction to application management in System Center Configuration Manager
+
+*Applies to: System Center Configuration Manager (Current Branch)**
+
 In this topic, you'll learn the basics you need to know before you start working with System Center Configuration Manager applications.  
 
 > [!TIP]  
