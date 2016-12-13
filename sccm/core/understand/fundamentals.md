@@ -13,9 +13,14 @@ ms.topic: article
 ms.assetid: cc4cdb35-f0b4-42b5-9cec-6431a8c30793
 caps.latest.revision: 11
 caps.handback.revision: 0
-author: Brendunsms.author: brendunsmanager: angrobe
+author: Brenduns
+ms.author: brenduns
+manager: angrobe
 ---
-# Fundamentals of System Center Configuration Manager*Applies to: System Center Configuration Manager (Current Branch)*
+# Fundamentals of System Center Configuration Manager
+
+*Applies to: System Center Configuration Manager (Current Branch)*
+
 If you are new to System Center Configuration Manager, read the fundamental topics to learn about  basic concepts for Configuration Manager before you run setup to install your first site. If you are familiar with Configuration Manager, then you can dive right in and we recommend staring with [What's new in System Center Configuration Manager](/sccm/core/plan-design/changes/what-has-changed-from-configuration-manager-2012).  
 
  For information about supported operating systems and supported environments, hardware requirements, and capacity information, see [Supported configurations for System Center Configuration Manager](../../core/plan-design/configs/supported-configurations.md).  
@@ -24,7 +29,7 @@ If you are new to System Center Configuration Manager, read the fundamental topi
 
 -   **When you deploy multiple sites**, the sites form child to parent relationships that are collectively referred to as a hierarchy. The hierarchy allows you to centrally manage a larger number of sites and devices.  Data and information flows down the hierarchy to reach devices you manage. Information about devices, and results of configuration tasks and request flow up the hierarchy.  
 
--   **When you deploy a single site** it is also referred to as a hierarchy.  
+-   **When you deploy a single site** it is also referred to as a hierarchy.   
 
  Some configuration tasks and settings will apply to all sites in a hierarchy, while others apply to individual sites.  
 
