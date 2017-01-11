@@ -78,6 +78,9 @@ For an example scenario that shows how you might deploy software updates in your
 
 7.  WSUS Synchronization Manager sends a request one at a time to WSUS running on other software update points at the site. The WSUS servers on the other software update points are configured to be replicas of WSUS running on the default software update point at the site.  
 
+## My new section of missing content
+My content...
+
 ##  <a name="BKMK_SUMCompliance"></a> Software updates compliance assessment  
  Before you deploy software updates to client computers in Configuration Manager, start a scan for software updates compliance on client computers. For each software update, a state message is created that contains the compliance state for the update. The state messages are sent in bulk to the management point and then to the site server, where the compliance state is inserted into the site database. The compliance state for software updates is displayed in the Configuration Manager console. You can deploy and install software updates on computers that require the updates. The following sections provide information about the compliance states and describe the process for scanning for software updates compliance.  
 
