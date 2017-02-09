@@ -2,7 +2,9 @@
 title: Manage Office 365 ProPlus updates | Microsoft Docs
 description: "Configuration Manager synchronizes Office 365 client updates from the WSUS catalog to the site server to make updates available to deploy to clients."
 keywords:
-author: dougebyms.author: dougebymanager: angrobe
+author: dougeby
+ms.author: dougeby
+manager: angrobe
 ms.date: 02/03/2017
 ms.topic: article
 ms.prod: configuration-manager
@@ -12,11 +14,14 @@ ms.technology:
 ms.assetid: eac542eb-9aa1-4c63-b493-f80128e4e99b
 ---
 
-# Manage Office 365 ProPlus updates with Configuration Manager*Applies to: System Center Configuration Manager (Current Branch)*
+# Manage Office 365 ProPlus updates with Configuration Manager
+
+*Applies to: System Center Configuration Manager (Current Branch)*
+
 Beginning in Configuration Manager version 1602, Configuration Manager has the ability to manage Office 365 client updates by using the software update management workflow. When Microsoft publishes a new Office 365 client update to the Office Content Delivery Network (CDN), Microsoft also publishes an update package to Windows Server Update Services (WSUS). After Configuration Manager synchronizes the Office 365 client update from the WSUS catalog to the site server, the update is available to deploy to clients.
 
 ## Office 365 Client Management dashboard  
-Starting in Configuration Manager version 1610, the Office 365 Client Management dashboard is available in the Configuration Manager console. To view the dashboard, go to **Software Library** > **Overview** > **Office 365 Client Management**.
+Beginning in Configuration Manager version 1610, the Office 365 Client Management dashboard is available in the Configuration Manager console. To view the dashboard, go to **Software Library** > **Overview** > **Office 365 Client Management**.
 
 <!--- >[!NOTE]
 >In the **What's New** workspace in the Configuration Manager console, the new dashboard is incorrectly named **Office 365 Servicing dashboard**. --->
