@@ -1,6 +1,7 @@
 # Understand and explore
 ## [Introduction to software updates](understand/software-updates-introduction.md)
 ## [Icons used for software updates](understand/software-updates-icons.md)
+## [My stuff](understand/my-stuff.md)
 
 # Plan and design
 ## [Plan for software updates](plan-design/plan-for-software-updates.md)
