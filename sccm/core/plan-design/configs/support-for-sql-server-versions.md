@@ -76,12 +76,18 @@ You can use this version of SQL Server with no minimum cumulative update version
 -   A primary site  
 -   A secondary site  
 
+> [!IMPORTANT]  
+>  SQL Server 2016 make use of a new Cardinality Estimator engine that could introduce some performance penalties. In order to resolve the performance , enable the legacy cardinality estimator (LEGACY_CARDINALITY_ESTIMATION = 1) per database. Refer to SQL Server 2016 documentation how to change the Cardinality Estimator.
+
 ### SQL Server 2016: Standard, Enterprise  
 You can use this version of SQL Server with no minimum cumulative update version for the following:  
 
 -   A central administration site  
 -   A primary site  
 -   A secondary site  
+
+> [!IMPORTANT]  
+>  SQL Server 2016 make use of a new Cardinality Estimator engine that could introduce some performance penalties. In order to resolve the performance , enable the legacy cardinality estimator (LEGACY_CARDINALITY_ESTIMATION = 1) per database. Refer to SQL Server 2016 documentation how to change the Cardinality Estimator.
 
 
 ### SQL Server 2014 SP2: Standard, Enterprise  
