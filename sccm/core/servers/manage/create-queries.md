@@ -14,10 +14,15 @@ ms.topic: article
 ms.assetid: 868049d3-3209-47ec-b34a-9cc26941893a
 caps.latest.revision: 5
 caps.handback.revision: 0
-author: andredm7ms.author: andredmmanager: angrobe
+author: andredm7
+ms.author: andredm
+manager: angrobe
 
 ---
-# How to create queries in System Center Configuration Manager*Applies to: System Center Configuration Manager (Current Branch)*
+# How to create queries in System Center Configuration Manager
+
+*Applies to: System Center Configuration Manager (Current Branch)*
+
 You can use this topic to help you create or import queries in System Center Configuration Manager.  
 
 ##  <a name="BKMK_Create"></a> How to create queries  
@@ -170,6 +175,7 @@ Use one of the following values for *&lt;Device ID\>*:
 |Android|11|  
 |Intel System-on-a-Chip|12|  
 |Unix and Linux servers|13|  
+|Android for Work|17|
 
  For example, if you want the query to return only Mac computers, use the following query:  
 
