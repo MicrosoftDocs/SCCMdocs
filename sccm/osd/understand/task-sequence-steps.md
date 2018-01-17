@@ -562,7 +562,7 @@ This task sequence step runs only in Windows PE. It does not run in a standard o
 
  This step runs only in a standard operating system. It does not run in Windows PE.  
 
-### Details  
+### Details
  On the **Properties** tab for this step, you can configure the settings described in this section.  
 
  In addition, use the **Options** tab to do the following actions:  
@@ -634,9 +634,7 @@ This step runs in either a standard operating system or Windows PE. However, the
 
  -   **Configuration Manager client cache**: You use this option to store the content in the clients cache. This allows the client to act as a peer cache source for other peer cache clients. For more information, see [Prepare Windows PE peer cache to reduce WAN traffic](../get-started/prepare-windows-pe-peer-cache-to-reduce-wan-traffic.md).  
 
- -   **Custom path**  
- > [!NOTE]
- > When you use the Download Package Content step and save the content to a **Custom path**, the files are saved to the task sequence package cache then _moved_ to the **Custom path** with the Package ID appended. 
+ -   **Custom path**: With this option the task sequence engine first downloads the package to the task sequence working directory, then moves it to this path you specify. The task sequence engine appends the path with the package ID.  
 
  **Save path as a variable**  
  You can save the path as a variable that you can  use in another task sequence step. Configuration Manager adds a numerical suffix to the variable name. For example, if you specify a variable of %*mycontent*% as a custom variable, it is the root for where all the referenced content is stored (which can be multiple packages). When you refer to the variable, you will add a numerical suffix to the variable. For example, for the first package, you will refer to %*mycontent01*% variable. When you refer to the variable in a subsequence steps, such as Upgrade Operating System, you would use %*mycontent02*% or %*mycontent03*% where the number corresponds to the order in which the package is listed in the step.  
