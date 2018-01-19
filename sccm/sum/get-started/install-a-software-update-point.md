@@ -81,35 +81,9 @@ You must configure the WSUS IIS application pool settings within IIS to optimize
     |Fail Interval (Minutes)|30|
     |Maximum Failures|60|
 
-4. Click **OK** and then run **IISReset** from a elevated command prompt. This will restart the IIS Services on the WSUS Server
-
-> [!NOTE]  
- > This will prevent the Application Pool from crashing on Windows Server 2012 R2 and Windows Server 2016 WSUS Servers. This will prevent the following errors:
-
-    Log Name: Application
-
-    Source: Windows Server Update Services
-
-    Event ID: 12072
-
-    The WSUS content directory is not accessible.
-    System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
-    at System.Net.HttpWebRequest.GetResponse()
-    at Microsoft.UpdateServices.Internal.HealthMonitoring.HmtWebServices.CheckContentDirWebAccess(EventLoggingType type, HealthEventLogger logger)
-
-** **
-    Log Name: Application
-
-    Source: SMS Server
-
-    Event ID: 7000
-
-    On 8/13/2015 3:22:40 AM, component SMS_WSUS_CONTROL_MANAGER on computer WSUS.fqdn reported:  WSUS Control Manager failed to configure proxy settings on WSUS Server "WSUS.fqdn".
-    Possible cause: WSUS Server version 3.0 SP2 or above is not installed or cannot be contacted.
-    Solution: Verify that the WSUS Server version 3.0 SP2 or greater is installed. Verify that the IIS ports configured in the site are same as those configured on the WSUS IIS website.You can receive failure because proxy is set but proxy name is not specified or proxy server port is invalid.
-
-
-### <a name="BKMK_wsusport"></a>WSUS port settings  
+4. Click **OK** and then run **IISReset** from a elevated command prompt. This will restart the IIS Services on the WSUS Server.
+  
+### <a name="BKMK_wsusport"></a>WSUS port settings  
  You must configure the WSUS port settings on the Software Update Point page of the wizard or in the properties of the software update point. Use the following procedure to determine the port settings used by WSUS.  
 
 #### To determine the port settings used in IIS  
