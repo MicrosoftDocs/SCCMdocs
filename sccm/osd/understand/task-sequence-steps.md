@@ -185,6 +185,8 @@ In the task sequence editor, click **Add**, select **Drivers**, and select **App
 
 > [!NOTE]  
 >  The Windows setup answer file that you supply can contain embedded task sequence variables of the form %*varname*%, where *varname* is the name of the variable. The **Setup Windows and ConfigMgr** step substitutes the %*varname*% string for the actual variable values. These embedded task sequence variables cannot be used in numeric-only fields in an unattend.xml answer file.  
+> [!NOTE]  
+>  If you have created the custom unattend.xml file using **Windows System Image Manager**, then make sure to remove the following line from the end of the file, because it will prevent ConfigMgr from successfully substituging the task sequence variables with the actual variable values: "<cpi:offlineImage cpi:source="wim:path-to-windows-image.wim#Windows" xmlns:cpi="urn:schemas-microsoft-com:cpi" />"
 
  If you do not supply a Windows setup answer file, this task sequence action automatically generates an answer file.  
 
