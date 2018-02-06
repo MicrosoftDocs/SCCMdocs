@@ -26,7 +26,7 @@ manager: angrobe
 System Center Configuration Manager uses an in-console service method called **Updates and Servicing**. This in-console method makes it easy to find and install recommended updates for your Configuration Manager infrastructure. In-console servicing is supplemented by out-of-band updates such as hotfixes that are intended for customers who need to resolve issues that might be specific to their environment.  
 
 > [!TIP]  
-> When managing System Center Configuration Manager site and hierarchy infrastructure, the terms *upgrade*, *update*, and *install* are used to describe three separate concepts. To learn how each term is used, see [About upgrade, update, and install](/sccm/core/understand/upgrade-update-install).
+> When managing System Center Configuration Manager site and hierarchy infrastructure, the terms *upgrade*, *update*, and *install* are used to describe three separate concepts. To learn how each term is used, see [About upgrade, update, and install](https://github.com/MicrosoftDocs/SCCMdocs/blob/master/sccm/core/understand/upgrade-update-install.md).
 
 
  **The following topics can help you understand how to find and install the different update types for System Center Configuration Manager:**  
