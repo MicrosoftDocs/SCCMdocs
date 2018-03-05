@@ -110,12 +110,15 @@ Class SMS_Advertisement : SMS_BaseClass
 |0x00010000 (16)|ENABLE_PEER_CACHING <br /><br /> This information applies to System Center 2012 Configuration Manager SP1 or later, and System Center 2012 R2 Configuration Manager or later.|  
 |0x00020000 (17)|DONOT_FALLBACK. Do not fall back to unprotected distribution points.|  
 |0x00040000 (18)|ENABLE_TS_FROM_CD_AND_PXE. The task sequence is available to removable media and the pre-boot execution environment (PXE) service point.|  
+|0x00080000 (19)|
 |0x00100000 (20)|OVERRIDE_SERVICE_WINDOWS. Override maintenance windows in announcing the advertisement to the user.|  
 |0x00200000 (21)|REBOOT_OUTSIDE_OF_SERVICE_WINDOWS. Reboot outside of maintenance windows.|  
 |0x00400000 (22)|WAKE_ON_LAN_ENABLED. Announce the advertisement to the user with Wake On LAN enabled.|  
 |0x00800000 (23)|SHOW_PROGRESS. Announce the advertisement to the user showing task sequence progress.|  
 |0x02000000 (25)|NO_DISPLAY. The user should not run programs independently of the assignment.|  
 |0x04000000 (26)|ONSLOWNET. Assignments are mandatory over a slow network connection.|  
+|0x10000000 (28)|
+|0x20000000 (29)|
 
  These flags must be coordinated with the flags that are specified in the `ProgramFlags` property of the advertised program. For example, if you set ONUSERLOGOFF, the NOUSERLOGGEDIN flag in the program must be set. If the flag settings do not match, the program is not advertised. For more information, see [SMS_Program Server WMI Class](../../../../../develop/reference/core/servers/configure/sms_program-server-wmi-class.md).  
 
