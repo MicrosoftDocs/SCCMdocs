@@ -6,7 +6,7 @@ description: Learn how to prepare your Windows 10 devices for co-management.
 keywords:
 author: dougeby
 manager: angrobe
-ms.date: 11/20/2017
+ms.date: 08/03/2018
 ms.topic: article
 ms.prod: configuration-manager
 ms.service:
@@ -65,6 +65,8 @@ ccmsetup.msi CCMSETUPCMD="/mp:https:/&#47;contoso.cloudapp.net/CCM_Proxy_MutualA
 > 3. On the Subscription page, click **Sign In** and sign in to your Intune tenant, and then click **Next**.    
 > 4. On the Enablement page, click **Copy** in the **Devices enrolled in Intune** section to copy the command line to the clipboard, and then save the command line to use in the procedure to create the app.  
 > 5. Click **Cancel** to exit the wizard.
+
+You need to add **/NoCRLCheck** CCMSetup command-line property, if you do not want to check the certificate revocation list (CRL).
 
 > [!Important]    
 > If you customize the command line to install the Configuration Manager client, make sure the command line does not exceed 1024 characters. When the command line is greater than 1024 characters, the client installation fails.
