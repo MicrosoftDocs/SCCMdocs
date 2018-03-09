@@ -2,7 +2,7 @@
 title: "See a View by Using SQL Server"
 titleSuffix: "Configuration Manager"
 ms.custom: ""
-ms.date: "09/20/2016"
+ms.date: "03/08/2018"
 ms.prod: "configuration-manager"
 ms.reviewer: ""
 ms.suite: ""
