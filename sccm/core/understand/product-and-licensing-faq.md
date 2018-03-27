@@ -88,5 +88,5 @@ Both SA (Software Assurance) and L&SA (License and Software Assurance) are licen
  - Database replicas for management point roles
  - SQL Server Always On 
 
- The SQL Server license that is included with System Center Configuration Manager supports each instance of SQL Server that you install to host a database for Configuration Manager. However, only databases for Configuration Manager in the preceding list can run on that SQL Server when you use this license. If a database for any additional Microsoft or third-party product shares the SQL Server, you must have a separate license for that SQL Server instance. 
+ The SQL Server license that is included with System Center Configuration Manager is for the Standard edition and supports each instance of SQL Server that you install to host a database for Configuration Manager. However, only databases for Configuration Manager in the preceding list can run on that SQL Server when you use this license. If a database for any additional Microsoft or third-party product shares the SQL Server, you must have a separate license for that SQL Server instance. 
  <!-- sms500967 -->
