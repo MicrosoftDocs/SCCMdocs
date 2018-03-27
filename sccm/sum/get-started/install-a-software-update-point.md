@@ -58,7 +58,32 @@ ms.assetid: b099a645-6434-498f-a408-1d438e394396
 ## WSUS settings  
  You must configure WSUS settings on different pages of the **Create Site System Server Wizard** or **Add Site System Roles Wizard** depending on the version of Configuration Manager that you use, and in some cases, only in the properties for the software update point, also known as Software Update Point Component Properties. Use the information in the following sections to configure the WSUS settings.  
 
-### <a name="BKMK_wsusport"></a>WSUS port settings  
+### <a name="BKMK_wsusport"></a>WSUS IIS Settings
+You must configure the WSUS IIS application pool settings within IIS to optimize WSUS and SCCM.
+
+#### To configure the app pool settings used in IIS
+
+1. On the WSUS server, open Internet Information Services (IIS) Manager
+
+2. Click **Application Pools**, and then right click **WsusPool**. In the menu click **Advanced Settings**
+
+3. Set the following options within the **Advanced Settings** menu.
+
+    |Option|Recommended Setting|
+    |------|-------------------|
+    |**General**|  |
+    |Queue Length| 25000|
+    |**CPU**|  |
+    |Limit (Percent)|65|
+    |Limit Action|Throttle|
+    |**Rapid-Fail Protection**|  |
+    |"Service Unavailable" Response|TcpLevel|
+    |Fail Interval (Minutes)|30|
+    |Maximum Failures|60|
+
+4. Click **OK** and then run **IISReset** from a elevated command prompt. This will restart the IIS Services on the WSUS Server.
+  
+### <a name="BKMK_wsusport"></a>WSUS port settings  
  You must configure the WSUS port settings on the Software Update Point page of the wizard or in the properties of the software update point. Use the following procedure to determine the port settings used by WSUS.  
 
 #### To determine the port settings used in IIS  
