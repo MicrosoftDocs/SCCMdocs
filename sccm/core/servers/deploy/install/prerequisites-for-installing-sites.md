@@ -35,7 +35,7 @@ The following prerequisites apply to installing a central administration site as
     -   **Sysadmin** on the instance of SQL Server that hosts the site database  
 
         > [!IMPORTANT]  
-        >  When Setup finishes, both the user account that runs Setup and the site server computer account must retain sysadmin rights to SQL Server. Do not remove the sysadmin rights from these accounts.  
+        >  When Setup finishes, both the user account that runs Setup and the site server computer account must retain sysadmin rights to SQL Server. Do not remove the sysadmin rights from these accounts. While sysadmin may be removed from th user account that runs setup in secure, regulated, and\or sensitive environments, it should be granted temporarily when installing servicing updates and hotfixes.  
 
 -   If you are installing a primary site, you need the following additional rights:  
     -  **Administrator** on additional computers where you will install the initial management point and distribution point, if not on the site server  
