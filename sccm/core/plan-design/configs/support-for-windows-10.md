@@ -39,9 +39,9 @@ For example, a Configuration Manager version drops from the matrix after [suppor
 |---------------------|-----|-----|-----|
 | Enterprise 2015 LTSB            <!--10/14/2025-->   | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) |
 | Enterprise 2016 LTSB            <!--10/13/2026-->   | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) |
-| 1607   <br />(*see editions*)   <!--04/10/2018-->   | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) |
 | 1703   <br />(*see editions*)   <!--10/09/2018-->   | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) |
 | 1709   <br />(*see editions*)   <!--04/09/2019-->   | ![Backwards compatible](media/blue_compat.png) | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) |
+| 1803   <br />(*see editions*)   <!--11/12/2019-->   | ![Backwards compatible](media/blue_compat.png) | ![Backwards compatible](media/blue_compat.png) | ![Supported](media/green_check.png) |
 
 <!-- lifecycle reference: https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet -->
 
@@ -65,9 +65,9 @@ The following table lists the versions of the Windows 10 ADK that you can use wi
 
 | Windows 10 ADK version  | Configuration Manager 1706 | Configuration Manager 1710 | Configuration Manager 1802   |
 |--------------------|-----|-----|-----|
-| 1607  | ![Not supported](media/Red_X.png)   | ![Not supported](media/Red_X.png) | ![Not supported](media/Red_X.png) |
 | 1703  | ![Supported](media/green_check.png) | ![Backwards compatible](media/blue_compat.png) | ![Backwards compatible](media/blue_compat.png) |
 | 1709  | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) |
+| 1803  | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) | ![Supported](media/green_check.png) |
 
 |Key|
 |--|
