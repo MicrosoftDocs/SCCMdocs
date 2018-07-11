@@ -11,7 +11,10 @@ ms.technology: configmgr-sum
 ms.assetid: 63c5ef72-5715-4d86-85a2-71beba469fab
 ms.author: aaroncz
 ---
-# Icons used for software updates in System Center Configuration Manager*Applies to: System Center Configuration Manager (Current Branch)*
+# Icons used for software updates in System Center Configuration Manager
+
+*Applies to: System Center Configuration Manager (Current Branch)*
+
 Synchronized software updates are displayed in the Configuration Manager console, and the first column for each software update contains an icon that indicates a specific state. Software update groups are also represented with an icon that provides information about the state of the software updates contained in the group. This section provides information about the software update icons and what each icon represents.  
 
 ## Icons for Software Updates  
@@ -114,3 +117,35 @@ Synchronized software updates are displayed in the Configuration Manager console
  **Operational Concerns:**  
 
  When the content is missing for a software update, clients are unable to install the software update until the content becomes available on a distribution point. You can redistribute the content to distribution points by using the **Redistribute** action. When content is missing for a software update in a deployment created at a parent site, the software update needs to replicated or redistributed to the child site. For more information about content redistribution, see [Manage the content you have distributed](../../core/servers/deploy/configure/deploy-and-manage-content.md#bkmk_manage).  
+
+## Icons used for software updates in Windows Server Update Services
+ Software updates in WSUS are represented by one of the following icons.  
+ To view these icons, you have to enable the Supersedence column in the Update Services console.
+ 
+### No Icon
+ The update has no supersedence relationship with any other update.
+
+ **Operational Concerns:**  
+
+ There are no operational concerns.  
+ 
+### Superseding Icon
+ ![icon](../media/wsus-superseding.png) This update supersedes other updates.
+
+ **Operational Concerns:**  
+
+ There are no operational concerns.  
+
+### Superseded & Superseding Icon
+ ![icon](../media/wsus-superseded.png) This update is superseded by another update, and supersedes other updates.
+
+ **Operational Concerns:**  
+
+ Replace these updates with the superseding updates when possible.
+ 
+### Superseded Icon
+ ![icon](../media/wsus-superseded-leaf.png) This update is superseded by another update.
+
+ **Operational Concerns:**  
+
+ Replace these updates with the superseding updates when possible.
