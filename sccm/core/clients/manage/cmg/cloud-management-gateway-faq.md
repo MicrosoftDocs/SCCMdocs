@@ -48,7 +48,7 @@ If your environment has more than one subscription, you can deploy CMG into any 
 
 This question is common in the following scenarios:  
 
-- When you have distinct test and production Active Directory and Azure AD environments, but one single, centralized Azure hosting subscription  
+- When you have distinct test and production Azure AD environments, but one single, centralized Azure hosting subscription  
 
 - Your use of Azure has grown organically across different teams  
 
