@@ -58,15 +58,6 @@ When the site system role installs, it installs and configures the data warehous
 For information on SQL Server licensing for the data warehouse database, see the [product and licensing FAQ](/sccm/core/understand/product-and-licensing-faq). <!-- sms500967 -->
 
 
-> [!IMPORTANT]  
-> The data warehouse is not supported when the computer that runs the data warehouse service point or that hosts the data warehouse database runs one of the following languages:
-> - JPN – Japanese
-> - KOR – Korean
-> - CHS – Simple Chinese
-> - CHT – Traditional Chinese
-> This issue will be resolved in a future release.
-
-
 ## Install the data warehouse
 Each hierarchy supports a single instance of this role, on any site system of the top-tier site. The SQL Server that hosts the database for the warehouse can be local to the site system role, or remote. The data warehouse works with the reporting services point installed at the same site. You do not need to install the two site system roles on the same server.   
 
@@ -81,7 +72,7 @@ When you install the role, Configuration Manager creates the data warehouse data
 - 	**Configuration Manager data warehouse database connection settings**:
      - **SQL Server fully qualified domain name**: Specify the full qualified domain name (FQDN) of the server that hosts the data warehouse service point database.
      - **SQL Server instance name, if applicable**: If you do not use a default instance of SQL Server, you must specify the instance.
-     - **Database name**: Specify a name for the data warehouse database. The database name cannot exceed 10 characters. (The supported name length will be increased in a future release).
+     - **Database name**: Specify a name for the data warehouse database. 
      Configuration Manager creates the data warehouse database with this name. If you specify a database name that already exists on the instance of SQL server, Configuration Manager uses that database.
      - **SQL Server port used for connection**: Specify the TCP/IP port number used by the SQL Server that hosts the data warehouse database. This port is used by the data warehouse synchronization service to connect to the data warehouse database.  By default 1433 SQL Server port is used for communication.
      - **Data warehouse service point account**: Starting in version 1802, specify the account that SQL Server Reporting Services uses when connecting to the data warehouse database. 
