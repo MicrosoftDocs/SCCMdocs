@@ -2,7 +2,7 @@
 title: Client settings
 titleSuffix: Configuration Manager
 description: Learn about the default and custom settings for controlling client behaviors
-ms.date: 03/21/2019
+ms.date: 03/22/2019
 ms.prod: configuration-manager
 ms.technology: configmgr-client
 ms.topic: conceptual
@@ -455,6 +455,10 @@ Set this option to **Yes** to enable power management on clients. For more infor
 ### Allow users to exclude their device from power management
 
 Choose **Yes** to let users of Software Center exclude their computer from any configured power management settings.  
+
+### Allow network wake-up
+
+New settings in Configuration Manager 1810 that when configured to **Enabled** configures the Power Management setting on the Network adapter to allow the network adapter to wake up Windows. If configured to **Disabled** the Network Adapter is not allowed to wake up the computer.
 
 ### Enable wake-up proxy
 
