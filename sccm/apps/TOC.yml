@@ -65,6 +65,8 @@
       href: deploy-use/create-app-v-virtual-environments.md
     - name: Copy applications
       href: deploy-use/copy-applications.md
+    - name: Import and export applications
+      href: deploy-use/import-export-applications.md
   - name: Update and retire applications
     items:
     - name: Update and retire applications
