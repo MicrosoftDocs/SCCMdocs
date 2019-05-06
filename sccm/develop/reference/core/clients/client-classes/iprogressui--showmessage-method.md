@@ -69,6 +69,9 @@ An `HRESULT` code. Possible values include, but aren't limited to, the following
 S_OK  
 The method succeeded.  
 
+## Associated UserVoice Item
+[TSProgressUI.ShowMessage - Enable Output](https://configurationmanager.uservoice.com/forums/300492-ideas/suggestions/37304425-tsprogressui-showmessage-enable-output)
+
 ## See also
 
 - [OS deployment client COM automation classes](/sccm/develop/reference/core/clients/client-classes/operating-system-deployment-client-com-automation-classes)  
