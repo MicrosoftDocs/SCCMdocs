@@ -25,7 +25,7 @@ ms.collection: M365-identity-device-management
 <!--1358309-->
 Starting in version 1806, application catalog roles are no longer required to display user-available applications in Software Center. This configuration helps you reduce the server infrastructure required to deliver applications to users. Reducing the server infrastructure also reduces the attack surface. 
 
-To deliver a consistent and secure application experience for internet-based clients, use Azure Active Directory and the cloud management gateway.
+To deliver a consistent and secure application experience for Internet-based clients, use Azure Active Directory and the cloud management gateway.
 
 For more information, see [Configure Software Center](/sccm/apps/plan-design/plan-for-software-center#bkmk_userex). 
 
@@ -41,7 +41,7 @@ When you don't use HTTPS, don't use the branding configuration options. These se
 
 ### Use role separation
 
-Install the Application Catalog website point and the Application Catalog web service point on separate servers. If the Application Catalog website point is compromised, it's separate from the Application Catalog web service point. This design helps to protect the Configuration Manager clients and infrastructure. This configuration is especially important if the Application Catalog website point accepts client connections from the internet. It makes the server more vulnerable to attack.  
+Install the Application Catalog website point and the Application Catalog web service point on separate servers. If the Application Catalog website point is compromised, it's separate from the Application Catalog web service point. This design helps to protect the Configuration Manager clients and infrastructure. This configuration is especially important if the Application Catalog website point accepts client connections from the Internet. It makes the server more vulnerable to attack.  
 
 
 ### Close browser windows
