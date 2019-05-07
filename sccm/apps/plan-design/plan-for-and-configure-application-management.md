@@ -170,7 +170,7 @@ For more information on configuring and branding Software Center, see [Plan for 
 
 If you use HTTPS connections, deploy a web server certificate to the site system servers for the Application Catalog website point and the Application Catalog web service point.
 
-If you want clients to use the Application Catalog from the internet, deploy a web server certificate to at least one management point. Configure it for client connections from the internet.
+If you want clients to use the Application Catalog from the Internet, deploy a web server certificate to at least one management point. Configure it for client connections from the Internet.
 
 For more information about certificate requirements, see [PKI certificate requirements](/sccm/core/plan-design/network/pki-certificate-requirements).  
 
@@ -182,7 +182,7 @@ If you use a client PKI certificate for connections to management points, deploy
 Deploy a client authentication certificate to client computers in the following scenarios:
 
 - All management points on the intranet accept only HTTPS client connections.
-- Clients connect to the Application Catalog from the internet.
+- Clients connect to the Application Catalog from the Internet.
 
 For more information about certificate requirements, see [PKI certificate requirements](/sccm/core/plan-design/network/pki-certificate-requirements).  
 
@@ -202,7 +202,7 @@ Install the application catalog on a new site system server or an existing serve
 - **Application Catalog website point**  
 
 > [!TIP]  
-> If you want client computers to use the Application Catalog over the internet, specify the internet fully qualified domain name (FQDN).  
+> If you want client computers to use the Application Catalog over the Internet, specify the Internet fully qualified domain name (FQDN).  
 
 #### Verify the installation of these site system roles  
 
@@ -244,7 +244,7 @@ Use the following procedures to verify that the Application Catalog is operation
 
 In a browser, enter the address of the Application Catalog website. Confirm that the web page shows the three tabs: **Application Catalog**, **My Application Requests**, and **My Devices**.  
 
-Use the appropriate address for the Application Catalog from the following list, where &lt;server&gt; is the computer name, intranet FQDN, or internet FQDN:  
+Use the appropriate address for the Application Catalog from the following list, where &lt;server&gt; is the computer name, intranet FQDN, or Internet FQDN:  
 
 - HTTPS client connections and default site system role settings: **https://&lt;server&gt;/CMApplicationCatalog**  
 
