@@ -39,11 +39,6 @@ For more information on sharing the WSUS database, see the following blog posts:
 - [Considerations for multiple WSUS instances sharing a content database when using System Center Configuration Manager](https://blogs.technet.microsoft.com/wsus/2014/03/22/considerations-for-multiple-wsus-instances-sharing-a-content-database-when-using-system-center-configuration-manager-but-without-network-load-balancing-nlb/)  
 
 
-### <a name="bkmk_sql-instance"></a> When Configuration Manager and WSUS use the same SQL Server, configure one to use a named instance and the other to use the default instance  
-
-When the Configuration Manager and WSUS databases share the same instance of SQL Server, you can't easily determine the resource usage between the two applications. Use different SQL Server instances for Configuration Manager and WSUS. This configuration makes it easier to troubleshoot and diagnose resource usage issues that might occur for each application.  
-
-
 ### <a name="bkmk_store-local"></a> Specify the "Store updates locally" setting  
 
 When you install WSUS, select the setting to **Store updates locally**. This setting causes WSUS to download the license terms that are associated with software updates. It downloads the terms during the synchronization process and stores them on the local hard drive for the WSUS server. If you don't select this setting, client computers might fail compliance scans for software updates that have license terms. The **WSUS Synchronization Manager** component of the software update point verifies that this setting is enabled every 60 minutes, by default.  
