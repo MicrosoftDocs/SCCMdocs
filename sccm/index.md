@@ -993,7 +993,7 @@ ms.collection: M365-identity-device-management
                                             </div>
                                             <div class="cardText">
                                                 <h3>#ConfigMgr on Twitter</h3>
-                                                <p>Read the latest tweets about Configuration Manager. </p>
+                                                <p>Read the latest tweets about Configuration Manager.�</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1069,13 +1069,51 @@ ms.collection: M365-identity-device-management
                                             </div>
                                             <div class="cardText">
                                                 <h3>Enterprise Mobility + Security blog</h3>
-                                                <p>The latest news about unified endpoint management.</p>
+                                                <p>The latest news�about unified endpoint management.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 </a>
                             </li>                            
+                            <li>
+                                <a href="https://slofile.com/slack/winadmins">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>WinAdmins Slack</h3>
+                                                <p>Community of System Administrators collaborating in real time.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.reddit.com/r/sccm">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Reddit_logo_orange.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>SCCM Subreddit</h3>
+                                                <p>A subreddit for the discussion of SCCM.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
