@@ -385,6 +385,11 @@ Running CMPivot on the CAS will require additional permissions when SQL or the p
 
 To get CMPivot to work on the CAS in such a “double hop scenario”, you can define constrained delegation. To understand the security implications of this configuration, read the [Kerberos constrained delegation](https://docs.microsoft.com/windows-server/security/kerberos/kerberos-constrained-delegation-overview) article. If you have more than one remote configuration such as SQL or SCCM Provider being colocated with the CAS or not, you may require a combination of permission settings. Below are the steps that you need to take:
 
+> [!Note]  
+> If other web service automation, third party solutions or similar auomation leverages kerberos authentication to perform database lookups you will need to register additional SPNs for those web services or automation. Those SPNs will need to be added to the constrained delegation tab for the relavent database account.
+-Example of creating a SPN for a webservice. -HTTP switch works for HTTPS and HTTP sites.
+-Example Setspn -A HTTP/SCCMAUTOMATION.CONTOSO.LOCAL CONTOSO\SCCMAUTOMATION 
+
 ### CAS has a remote SQL server
 
 1. Go to each primary site's SQL server.
