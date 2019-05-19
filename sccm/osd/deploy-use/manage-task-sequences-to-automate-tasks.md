@@ -391,7 +391,7 @@ Deletes the selected task sequence.
 
 #### Create Phased Deployment
 
-For more information, see [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence).
+For more information, see [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployments).
 
 #### Deploy
 

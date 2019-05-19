@@ -82,7 +82,7 @@ Use the **Site version** property to determine the difference between 1806 and 1
 
 ## <a name="bkmk_pod"></a> Improvements to phased deployments
 
-This release includes the following improvements to [phased deployments](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence):
+This release includes the following improvements to [phased deployments](/sccm/osd/deploy-use/create-phased-deployments):
 - [Phased deployment status](#bkmk_pod-monitor)
 - [Phased deployment of applications](#bkmk_pod-app)
 - [Gradual rollout during phased deployments](#bkmk_pod-throttle)
@@ -119,7 +119,7 @@ Create phased deployments for applications. Phased deployments allow you to orch
 
 In the Configuration Manager console, go to the **Software Library**, expand **Application Management**, and select **Applications**. Select an application, and then click **Create Phased Deployment** in the ribbon. 
 
-The behavior of an application phased deployment is the same as for task sequences. For more information, see [Create phased deployments for a task sequence](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence).
+The behavior of an application phased deployment is the same as for task sequences. For more information, see [Create phased deployments for a task sequence](/sccm/osd/deploy-use/create-phased-deployments).
 
 #### Prerequisite
 Distribute the content for the application to a distribution point before creating the phased deployment.<!--518293-->

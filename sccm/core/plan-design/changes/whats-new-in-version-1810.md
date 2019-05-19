@@ -283,7 +283,7 @@ For more information, see [Task sequence variables](/sccm/osd/understand/task-se
 <!--1358146-->
 Create phased deployments for software updates. Phased deployments allow you to orchestrate a coordinated, sequenced rollout of software based on customizable criteria and groups.
 
-For more information, see [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence?toc=/sccm/sum/toc.json&bc=/sccm/sum/breadcrumb/toc.json).
+For more information, see [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployments?toc=/sccm/sum/toc.json&bc=/sccm/sum/breadcrumb/toc.json).
 
 
 ### Improvement to maintenance windows for software updates

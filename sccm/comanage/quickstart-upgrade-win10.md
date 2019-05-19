@@ -34,7 +34,7 @@ For more information, see [Enable Windows 10 automatic enrollment](https://docs.
 
 Here are some tips we've learned from helping thousands of customers get current quickly:
 
-- Use phased deployments to roll out this upgrade to the right people at the right times. For more information, see [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence).  
+- Use phased deployments to roll out this upgrade to the right people at the right times. For more information, see [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployments).  
 
 - Use pre-caching to reduce user wait times. For more information, see [Configure pre-cache content](/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content).  
 

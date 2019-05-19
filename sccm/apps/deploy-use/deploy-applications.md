@@ -190,7 +190,7 @@ Starting in version 1806, create a phased deployment for an application. Phased 
 
 For more information, see the following articles:  
 
-- [Create a phased deployment](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence?toc=/sccm/apps/toc.json&bc=/sccm/apps/breadcrumb/toc.json)  
+- [Create a phased deployment](/sccm/osd/deploy-use/create-phased-deployments?toc=/sccm/apps/toc.json&bc=/sccm/apps/breadcrumb/toc.json)  
 
 - [Manage and monitor phased deployments](/sccm/osd/deploy-use/manage-monitor-phased-deployments?toc=/sccm/apps/toc.json&bc=/sccm/apps/breadcrumb/toc.json)  
 

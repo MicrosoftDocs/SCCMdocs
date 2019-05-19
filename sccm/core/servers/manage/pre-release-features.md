@@ -77,7 +77,7 @@ When you enable a pre-release feature, the Configuration Manager hierarchy manag
 | [SCAP extensions](/sccm/compliance/plan-design/scap/about-scap) <!--3607889--> | Version 1806 | ![Not yet](media/red_x.png) |
 | [Package conversion manager](/sccm/apps/pcm/package-conversion-manager) <!--1357861--> | Version 1806 | Version 1810 |
 | [Support for Cisco AnyConnect 4.0.07x and later for iOS](/sccm/mdm/deploy-use/create-vpn-profiles) <!--1357393--> | Version 1802 | Version 1802 <br>with update 4163547 |
-| [Phased deployments](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence) <!--1356837--> | Version 1802 | Version 1806 |
+| [Phased deployments](/sccm/osd/deploy-use/create-phased-deployments) <!--1356837--> | Version 1802 | Version 1806 |
 | [Run task sequence step](/sccm/osd/deploy-use/manage-task-sequences-to-automate-tasks#add-child-task-sequences-to-a-task-sequence) <!--1261338--> |  Version 1710 | Version 1802 |
 | [Windows Defender Exploit Guard](/sccm/protect/deploy-use/create-deploy-exploit-guard-policy) <!--1355468--> | Version 1710 | Version 1802 |
 | [Device health attestation assessment for conditional access compliance policies](/sccm/mdm/deploy-use/manage-access-to-o365-services-for-pcs-managed-by-sccm) <!--1235616--> | Version 1710 | Version 1802 |

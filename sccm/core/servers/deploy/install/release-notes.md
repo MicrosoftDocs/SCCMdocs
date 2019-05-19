@@ -102,7 +102,7 @@ None
 <!--3479337, SCCMDocs-pr issue 3095-->
 *Applies to: Configuration Manager versions 1810, 1902*
 
-The **OS Deployment Manager** built-in security role has permissions to [phased deployments](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence). The following roles are missing these permissions:  
+The **OS Deployment Manager** built-in security role has permissions to [phased deployments](/sccm/osd/deploy-use/create-phased-deployments). The following roles are missing these permissions:  
 
 - **Application Administrator**  
 - **Application Deployment Manager**  

@@ -413,7 +413,7 @@ For more information, see [Phased deployment monitoring view](/sccm/osd/deploy-u
 
 Create a phased deployment for a task sequence, software update, or application. Then on the Settings page of the wizard, select the following option as the criteria for success of the first phase: **Number of devices successfully deployed**.
 
-For more information, see [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence).
+For more information, see [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployments).
 
 
 

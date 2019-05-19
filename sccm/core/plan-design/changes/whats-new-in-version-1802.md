@@ -217,7 +217,7 @@ The [deployment wizard for task sequences](/sccm/osd/deploy-use/deploy-a-task-se
 
 ### Phased deployments for task sequences
 <!--1356837-->
- Phased deployments is a [pre-release feature](/sccm/core/servers/manage/pre-release-features). Phased deployments automate a coordinated, sequenced rollout of a task sequence across multiple collections. You can [create phased deployments](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence) with the default of two phases, or manually configure multiple phases. Phased deployment of task sequences does not support PXE or media installation.
+ Phased deployments is a [pre-release feature](/sccm/core/servers/manage/pre-release-features). Phased deployments automate a coordinated, sequenced rollout of a task sequence across multiple collections. You can [create phased deployments](/sccm/osd/deploy-use/create-phased-deployments) with the default of two phases, or manually configure multiple phases. Phased deployment of task sequences does not support PXE or media installation.
 
 
 

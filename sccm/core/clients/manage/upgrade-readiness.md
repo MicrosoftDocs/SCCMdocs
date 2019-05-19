@@ -101,4 +101,4 @@ After you've integrated Upgrade Readiness with Configuration Manager, you can vi
 
 - [Upgrade Windows to the latest version](/sccm/osd/deploy-use/upgrade-windows-to-the-latest-version)  
 - [Create a task sequence to upgrade an OS](/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)  
-- [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence)  
+- [Create phased deployments](/sccm/osd/deploy-use/create-phased-deployments)  

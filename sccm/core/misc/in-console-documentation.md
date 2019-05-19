@@ -39,7 +39,7 @@ A curated list of important articles.
 - [Co-management for Windows 10 devices](https://docs.microsoft.com/sccm/comanage/overview)  
 - [CMPivot](https://docs.microsoft.com/sccm/core/servers/manage/cmpivot)  
 - [Create and run PowerShell scripts](https://docs.microsoft.com/sccm/apps/deploy-use/create-deploy-scripts)  
-- [Phased deployments](https://docs.microsoft.com/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence)  
+- [Phased deployments](https://docs.microsoft.com/sccm/osd/deploy-use/create-phased-deployments)  
 - [Manage Office 365 ProPlus updates](https://docs.microsoft.com/sccm/sum/deploy-use/manage-office-365-proplus-updates)  
 - [Fundamentals of Configuration Manager current branch and Windows as a service](https://docs.microsoft.com/sccm/core/understand/configuration-manager-and-windows-as-service)
 - [Optimize Windows 10 update delivery with Configuration Manager](https://docs.microsoft.com/sccm/sum/deploy-use/optimize-windows-10-update-delivery)

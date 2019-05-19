@@ -79,7 +79,7 @@ ms.collection: M365-identity-device-management
                                                 <h3>OS deployment</h3>
                                                 <p><a href="/sccm/osd/understand/introduction-to-operating-system-deployment">Introduction to OS deployment</a></p>
                                                 <p><a href="/sccm/osd/deploy-use/upgrade-windows-to-the-latest-version">Upgrade to Windows 10</a></p>
-                                                <p><a href="/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence">Phased deployments</a></p>
+                                                <p><a href="/sccm/osd/deploy-use/create-phased-deployments">Phased deployments</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -414,7 +414,7 @@ ms.collection: M365-identity-device-management
                                 </a>
                             </li>
                             <li>
-                                <a href="/sccm/osd/deploy-use/create-phased-deployment-for-task-sequence">
+                                <a href="/sccm/osd/deploy-use/create-phased-deployments">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
