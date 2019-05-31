@@ -146,12 +146,12 @@ Starting in version 1802, the default task sequence template for Windows 10 in-p
 
 - **USB drive checks**: Add steps in this group to check whether a USB drive is connected to the computer. This action requires a custom script or utility. For example: Using WbemTest, connect to the `root\cimv2` namespace. Then run the following query: `Select * From Win32_Diskdrive where InterfaceType = "USB"`. If it returns any results, a USB drive is connected to the computer. Otherwise, no USB drive is connectd.  
 
-- **Device OS version, model and manufacturer information**: Add steps in this group to check the OS version, model, and manufacturer of the computer. This action requires a custom script or utility to perform this check. For example: Using WbemTest, connect to the `root\cimv2` namespace. Then run the following queries: `Select model, manufacturer from Win32_Computersystem` and `Select Version From Win32_OperatingSystem`. 
+- **Device OS version, model, and manufacturer information**: Add steps in this group to check the OS version, model, and manufacturer of the computer. This action requires a custom script or utility to perform this check. For example: Using WbemTest, connect to the `root\cimv2` namespace. Then run the following queries: `Select model, manufacturer from Win32_Computersystem` and `Select Version From Win32_OperatingSystem`. 
 
-- **Set power plan to "High Performance"**: Windows 10 has pre-defined power plans - "Balanced," "Power saver," and "High performance" to optimize the power usage of your device. If you're looking to boost performance, you can change to the "High performance" option, which speeds the upgrade process. For example: Add a **Run Command Line** to change the current power plan on the device
+- **Set power plan to "High Performance"**: Windows 10 has the pre-defined power plans "Balanced," "Power saver," and "High performance" to optimize the power usage of your device. If you're looking to boost performance, you can change to the "High performance" option, which speeds the upgrade process. For example: Add a **Run Command Line** to change the current power plan on the device:
 </br>`PowerCfg.exe /s 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</br>`
 
-- **Remove System Center Endpoint Protection (SCEP)**: Add steps in this group to remove SCEP with this version of Windows 10. The method to uninstall an application varies. For example: Add a **Run Command Line** </br>`C:\Windows\ccmsetup\scepinstall.exe /u /s`</br>  
+- **Remove System Center Endpoint Protection (SCEP)**: Add steps in this group to remove SCEP with this version of Windows 10. The method to uninstall an application varies. For example, add a **Run Command Line**: </br>`C:\Windows\ccmsetup\scepinstall.exe /u /s`</br>  
 
 - **Remove incompatible applications**: Add steps in this group to remove any applications that are incompatible with this version of Windows 10. The method to uninstall an application varies.  
 
