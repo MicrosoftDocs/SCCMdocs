@@ -1,4 +1,4 @@
----
+﻿---
 title: Manage Office 365 ProPlus updates
 titleSuffix: "Configuration Manager"
 description: "Configuration Manager synchronizes Office 365 client updates from the WSUS catalog to the site server to make updates available to deploy to clients."
@@ -222,8 +222,11 @@ To change the update channel after you enable Office 365 clients to receive upda
 - Semi-Annual Channel (Targeted) <br/>
 <i>(formerly First Release for Deferred Channel)</i>:  
   **CDNBaseUrl** = http&#58;//officecdn.microsoft.com/pr/b8f9b850-328d-4355-9145-c59439a0c4cf
-<!--the channel names changed in Sept 2017- https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus?ui=en-US&rs=en-US&ad=US-->
 
+- Insider Channel:<br/>
+  **CDNBaseUrl** = http&#58;//officecdn.microsoft.com/pr/5440fd1f-7ecb-4221-8110-145efaa6372f
+
+<!--the channel names changed in Sept 2017- https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus?ui=en-US&rs=en-US&ad=US-->
 
 <!--- You can create an Office 365 app without using the Office 365 Installation Wizard. To do this, you use the Office 2016 Deployment Tool (ODT) to download Office installation source files to a network share, generate Configure.xml that specifies the correct Office version and channel, and so on. Then, create an app for the files using the normal app management process.
 > [!Note]
