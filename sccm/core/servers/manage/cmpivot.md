@@ -385,7 +385,7 @@ Running CMPivot on the CAS will require additional permissions when SQL or the p
 
 To get CMPivot to work on the CAS in such a “double hop scenario”, you can define constrained delegation. To understand the security implications of this configuration, read the [Kerberos constrained delegation](https://docs.microsoft.com/windows-server/security/kerberos/kerberos-constrained-delegation-overview) article. If you have more than one remote configuration such as SQL or SCCM Provider being colocated with the CAS or not, you may require a combination of permission settings. Below are the steps that you need to take:
 
-> [!Note]
+> [!NOTE]
 > In the event custom web services, third party solutions or similar automation exist in your environment and NTLM Fallback is not allowed, you will need to register additional SPNs for those web services and/or other automation. Add the new SPNs to the constrained delegation tab for the relevant database account. Even if NTLM Fallback is allowed and the services continue to function, SPNs may still need to be added if NTLM authentication is not desired.
 > -Example of creating a SPN for a web service.
 > Setspn -A HTTP/SCCMAUTOMATION.CONTOSO.COM CONTOSO\SCCMAUTOMATION
