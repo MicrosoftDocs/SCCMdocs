@@ -23,7 +23,7 @@ One of the benefits of Desktop Analytics is to help identify the smallest set of
 
 [!INCLUDE [Definition of pilot and production](includes/define-pilot-prod.md)]
 
-
+<!-- This creates confusion because DA is only for workstations.  You can state "deploy to all your Desktop or Workstations Collection" but don't use the term or collection "All Systems" when servers cannot use or register with DA -->
 
 ## Address issues
 
