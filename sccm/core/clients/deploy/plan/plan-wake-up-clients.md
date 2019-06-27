@@ -67,6 +67,8 @@ You can supplement the traditional wake-up packet method by using the wake-up pr
 
 -   Communication is unencrypted and unauthenticated, and IPsec is not supported.  
 
+-   The Wakeup menu option within the Client Notification menu is only active when a Configuration Manager administrator console is connected to a stand-alone or child primary site.
+
 -   The following network configurations are not supported:  
 
     -   802.1X with port authentication  
