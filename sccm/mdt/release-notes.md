@@ -21,7 +21,7 @@ This article provides details on the latest release of the Microsoft Deployment 
 
 **MDT build 8456** is the latest version available on the [Microsoft Download Center](https://aka.ms/mdtdownload). 
 
-This update begins support for Windows 10, version 1809, and Windows Server 2019. For more information, see the [supported platforms](#supported-platforms) section.
+This update begins support for Windows 10, version 1809, version 1903, and Windows Server 2019. For more information, see the [supported platforms](#supported-platforms) section.
 
 
 ## Significant changes
@@ -31,7 +31,9 @@ Here is a summary of the significant changes in MDT build 8456.
 
 ### Supported configuration updates
 
+- Windows ADK for Windows 10, version 1903
 - Windows ADK for Windows 10, version 1809
+- Windows 10, version 1903
 - Windows 10, version 1809
 - Configuration Manager, version 1810
 
@@ -57,6 +59,7 @@ MDT releases are no longer tagged with year or update version. To align better w
 Unlike Configuration Manager with a predetermined release schedule, MDT only releases as required to support new versions of Windows 10, the Windows ADK, or Configuration Manager current branch. Any known issues with these components will be documented in this article as necessary.
 
 The following OS versions are supported for deployment with MDT:
+- Windows 10, version 1903
 - Windows 10, version 1809
 - Windows 10, version 1803
 - Windows 10, version 1709
