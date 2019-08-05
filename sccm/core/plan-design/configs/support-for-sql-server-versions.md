@@ -71,36 +71,22 @@ Unless specified otherwise, the following versions of SQL Server are supported w
 
 ### SQL Server 2017: Standard, Enterprise
 
-<<<<<<< HEAD
-=======
 You can use this version with [cumulative update version 2](https://support.microsoft.com/help/4052574) or higher, as long as your cumulative update version is supported by the SQL lifecycle. This version of SQL can be used for the following sites:
 
->>>>>>> 0ed6597086de66af0d694d528451b989a795ee62
 - A central administration site  
 - A primary site  
 - A secondary site  
   <!--SMS.498506-->
 
-<<<<<<< HEAD
-### SQL Server 2016 SP2: Standard, Enterprise  
-<!--514985-->
-You can use this version of SQL Server with no minimum cumulative update version for the following sites:  
-=======
 ### SQL Server 2016: Standard, Enterprise  
 <!--514985-->
 You can use this version with the minimum service pack and cumulative update supported by the SQL lifecycle. This version of SQL can be used for the following sites:
->>>>>>> 0ed6597086de66af0d694d528451b989a795ee62
 
 - A central administration site  
 - A primary site  
 - A secondary site  
 
-<<<<<<< HEAD
-### SQL Server 2014 SP3: Standard, Enterprise  
-You can use this version of SQL Server with no minimum cumulative update version for the following sites:  
-=======
 ### SQL Server 2014: Standard, Enterprise
->>>>>>> 0ed6597086de66af0d694d528451b989a795ee62
 
 You can use this version with the minimum service pack and cumulative update supported by the SQL lifecycle. This version of SQL can be used for the following sites:
 
@@ -108,10 +94,6 @@ You can use this version with the minimum service pack and cumulative update sup
 - A primary site  
 - A secondary site
 
-<<<<<<< HEAD
-### SQL Server 2017 Express   
-You can use this version of SQL Server, with a minimum of [cumulative update version 2](https://support.microsoft.com/help/4052574), beginning with [Configuration Manager version 1710](/sccm/core/plan-design/changes/whats-new-in-version-1710) for the following sites:
-=======
 ### SQL Server 2012: Standard, Enterprise
 
 You can use this version with the minimum service pack and cumulative update supported by the SQL lifecycle. This version of SQL can be used for the following sites:
@@ -124,35 +106,24 @@ You can use this version with the minimum service pack and cumulative update sup
 
 You can use this version with [cumulative update version 2](https://support.microsoft.com/help/4052574) or higher, as long as your cumulative update version is supported by the SQL lifecycle. This version of SQL can be used for the following sites:
 
->>>>>>> 0ed6597086de66af0d694d528451b989a795ee62
 - A secondary site
 <!--SMS.498506-->
 
 ### SQL Server 2016 Express
 
-<<<<<<< HEAD
-### SQL Server 2014 Express SP3   
-You can use this version of SQL Server with no minimum cumulative update version for the following sites:  
-=======
 You can use this version with the minimum service pack and cumulative update supported by the SQL lifecycle. This version of SQL can be used for the following sites:
 
 - A secondary site
 
 ### SQL Server 2014 Express
->>>>>>> 0ed6597086de66af0d694d528451b989a795ee62
 
 You can use this version with the minimum service pack and cumulative update supported by the SQL lifecycle. This version of SQL can be used for the following sites:
 
 - A secondary site  
 
-<<<<<<< HEAD
-### SQL Server 2012 Express SP4  
-You can use this version of SQL Server with no minimum cumulative update version for the following sites:  
-=======
 ### SQL Server 2012 Express
 
 You can use this version with the minimum service pack and cumulative update supported by the SQL lifecycle. This version of SQL can be used for the following sites:
->>>>>>> 0ed6597086de66af0d694d528451b989a795ee62
 
 - A secondary site  
 
@@ -269,7 +240,6 @@ If you have a firewall enabled on the computer that is running SQL Server, make 
 For an example of how to configure SQL Server to use a specific port, see [Configure a server to listen on a specific TCP port](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-a-server-to-listen-on-a-specific-tcp-port).  
 
 
-
 ## Upgrade options for SQL Server
 
 If you need to upgrade your version of SQL Server, use one of the following methods, from easy to more complex:  
@@ -278,4 +248,5 @@ If you need to upgrade your version of SQL Server, use one of the following meth
 
 - Install a new version of SQL Server on a new computer, and then [use the database move option](/sccm/core/servers/manage/modify-your-infrastructure#bkmk_dbconfig) of Configuration Manager setup to point your site server to the new SQL Server  
 
-- Use [backup and recovery](/sccm/protect/understand/backup-and-recovery). Using backup and recovery for a SQL upgrade scenario is supported. You can ignore the SQL versioning requirement when reviewing [Considerations before recovering a site](/sccm/protect/understand/recover-sites#considerations-before-recovering-a-site). 
+- Use [backup and recovery](/sccm/protect/understand/backup-and-recovery). Using backup and recovery for a SQL upgrade scenario is supported. You can ignore the SQL versioning requirement when reviewing [Considerations before recovering a site](/sccm/protect/understand/recover-sites#considerations-before-recovering-a-site).
+
