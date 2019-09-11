@@ -62,6 +62,7 @@ Throughout this tutorial, use the following permissions to complete tasks:
 - An account that is a *global administrator* in Azure  
 - An account that is a *domain admin* on your on-premises infrastructure  
 - An account that is a *full administrator* for *all* scopes in Configuration Manager
+- An account with a valid Intune license when enabling co-management (This could go in the license pre-requs possibly). The sign-in will fail if the admin user donest have a avalid Intune license.
 
 ## Set up hybrid Azure AD
 
