@@ -61,6 +61,15 @@ When the application's deployment compliance is 0%, check the deployment status 
   
 If these actions don't resolve the issue, check the client status. There may be a deeper underlying problem with the client. For more information, see [How to monitor clients](/sccm/core/clients/manage/monitor-clients).
 
+## Additional Troubleshooting Information
+
+An administrator's guide has been created with additional helpful steps one may following to troubleshoot a variety of Application Deployment Issues, including:
+
+- Items to check to verify Policy on the client
+- Extensive information on the various client log files involved in Application Assignment
+- Application discovery and Software Center troubleshooting information
+
+See the full guide here, [Troubleshooting Application Deployment in Configuration Manager](https://support.microsoft.com/en-us/help/4509382/troubleshooting-application-deployment-in-configuration-manager)
 
 ## Next steps
 
