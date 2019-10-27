@@ -81,8 +81,6 @@ When you use a pull-distribution point, review and configure the following site 
 
 ## Limitations 
 
--   You can't configure a cloud distribution point as a pull-distribution point.  
-
 -   You can't configure the distribution point role on a site server as a pull-distribution point.  
 
 -   The prestage content configuration overrides the pull-distribution point configuration. If you turn on the option to **Enable this distribution point for prestaged content** on a pull-distribution point, it waits for the content. It doesn't pull content from the source distribution point. Like a standard distribution point enabled for prestaged content, it doesn't receive content from the site server. For more information, see [Prestaged content](/sccm/core/plan-design/hierarchy/manage-network-bandwidth#BKMK_PrestagingContent).  
