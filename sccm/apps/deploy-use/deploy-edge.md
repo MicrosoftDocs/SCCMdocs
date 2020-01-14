@@ -2,7 +2,7 @@
 title: Deploy and update Microsoft Edge, version 77 and later
 titleSuffix: Configuration Manager
 description: How to deploy and update Microsoft Edge, version 77 and later with Configuration Manager
-ms.date: 11/29/2019
+ms.date: 01/14/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-app
 ms.topic: conceptual
@@ -28,7 +28,7 @@ Admins can pick the Beta or Dev channel, along with a version of the Microsoft E
 
 For clients targeted with a Microsoft Edge, version 77 and later deployment:
 
-- PowerShell [Execution Policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) can't be set to Restricted.
+- PowerShell [Execution Policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) can't be set to Restricted or Allsigned.
   - PowerShell is executed to perform the installation.
   
 The device running the Configuration Manager console needs access to the following endpoints:
