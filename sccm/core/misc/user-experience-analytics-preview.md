@@ -49,7 +49,7 @@ This current preview requires:
 - Startup performance insights are only available for devices running version 1903 or later of Windows 10.
 - Network connectivity from devices to the Microsoft public cloud. For more information, see [endpoints](#bkmk_uea_endpoints).
 - The [Intune Service Administrator role](https://docs.microsoft.com/intune/fundamentals/role-based-access-control) is required to [start gathering data](#bkmk_uea_start).
-   - After clicking **Start** for gathering data, other read-only roles can view the data.
+   - After clicking **Start** for gathering data, other read-only roles can view the data. By clicking **Start**, you agree and acknowledge that your customer data may be stored outside the location you selected when you provisioned your Microsoft Intune tenant.
 
 Configuration Manager devices and Intune enrolled devices on prior versions of Windows 10 aren't currently supported for this preview.
 
