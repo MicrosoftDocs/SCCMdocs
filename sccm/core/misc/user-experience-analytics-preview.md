@@ -71,6 +71,22 @@ For proactive remediations, users of the device need one of the following licens
 1. Go to `https://devicemanagement.microsoft.com/#blade/Microsoft_Intune_Enrollment/UXAnalyticsMenu`
 1. Click **Start**. This will automatically assign a configuration profile to collect boot performance data from all eligible devices. You can [change assigned devices](#bkmk_uea_profile) later. It may take up to 24 hours for startup performance data to populate from your Intune enrolled devices after they reboot.
 
+### <a name="bkmk_uea_enrollment_tshooter"></a> Troubleshooting startup performance device enrollment
+
+If the overview page shows a startup performance score of zero accompanied by a banner showing it is waiting for data, or if the startup performance's device performance tab shows less devices than you expect, there are some steps you can take to troubleshoot the issue.
+
+First, here's a quick summary of common issues:
+1. Startup performance data is currently only available for US tenants. We are actively working on a fix to enable non-US tenants which we hope we can deploy soon.
+2. Intune can only collect data from Windows 10 devices version 1903 (aka 19H1) or later
+3. Intune can only collect data from Windows 10 enterprise devices (Windows 10 pro is not supported)
+Note that these issues will not apply to data coming from the Configuration Manager connector, which we hope to enable this spring.
+
+Second, here's a quick checklist to go through for troubleshooting:
+1. Make sure you have the Windows Health Monitoring profile targeted to all the devices for which you want performance data. You can find a link to this profile from within the endpoint analytics setting page, or you navigate to it as you would any other Intune profile. Look at the assignment tab to make sure it is assigned to the expected set of devices. 
+2. Have a look at which devices have been successfully configured for data collection. You can also see this information in the profiles overview page. Note: there is a known issue where customers may see profile assignment errors, where affected devices show an error code of "-2016281112 (Remediation failed)"; we are actively investigating this issue.
+3. Devices that have been successfully configured for data collection must be restarted after data collection has been enabled, and you must then wait up to 24 hours after that for the device to show up in the device performance tab.
+4. If your device has been successfully configured for data collection, has subsequently restarted, and after 24 hours you are still not seeing it, then it may be that the device can't reach our collection endpoints. This may happen if your company uses a proxy server and the endpoints have not been enabled in the proxy. See [Troubleshooting endpoints](#bkmk_uea_endpoints) for additional information.
+
 ## Overview page
 
 Once your data is ready, you'll notice some information on the **Overview** page, explained in more detail below:
