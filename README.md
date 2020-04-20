@@ -1,10 +1,8 @@
 # SCCMDocs
 
-This repository contains the conceptual technical content for [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr).
+The content for Microsoft Endpoint Configuration Manager moved to `docs.microsoft.com/mem/configmgr` and the [MEMDocs repository](https://github.com/MicrosoftDocs/memdocs).
 
-We welcome and encourage community involvement as feedback (issues) and contributions (pull requests). For more information, see [How to use the Configuration Manager docs](https://docs.microsoft.com/sccm/core/understand/use-docs).
-
-The Configuration Manager [PowerShell documentation](https://docs.microsoft.com/powershell/sccm/overview?view=sccm-ps) lives in the [sccm-docs-powershell](https://github.com/MicrosoftDocs/sccm-docs-powershell) repository.
+The Configuration Manager [PowerShell documentation](https://docs.microsoft.com/powershell/sccm/overview?view=sccm-ps) lives in the [sccm-docs-powershell-ref repository](https://github.com/MicrosoftDocs/sccm-docs-powershell-ref).
 
 ## Microsoft Open Source Code of Conduct
 
