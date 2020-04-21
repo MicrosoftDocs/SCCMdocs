@@ -2087,6 +2087,58 @@
             "redirect_url": "/mem/configmgr/core/plan-design/changes/deprecated/removed-and-deprecated",
             "redirect_document_id": true
         }, {
+            "source_path": "sccm/core/plan-design/configs/recommended-hardware.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/recommended-hardware",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/site-and-site-system-prerequisites.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/site-and-site-system-prerequisites",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/site-size-performance-guidelines.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/site-size-performance-guidelines",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/size-and-scale-numbers.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/size-and-scale-numbers",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/support-for-active-directory-domains.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/support-for-active-directory-domains",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/support-for-sql-server-versions.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/support-for-sql-server-versions",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/support-for-virtualization-environments.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/support-for-virtualization-environments",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/support-for-windows-10.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/support-for-windows-10",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/support-for-windows-features-and-networks.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/support-for-windows-features-and-networks",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/supported-configurations.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/supported-configurations",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/supported-operating-systems-consoles.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/supported-operating-systems-consoles",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/supported-operating-systems-for-clients-and-devices.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/supported-operating-systems-for-clients-and-devices",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/plan-design/configs/supported-operating-systems-for-site-system-servers.md",
+            "redirect_url": "/mem/configmgr/core/plan-design/configs/supported-operating-systems-for-site-system-servers",
+            "redirect_document_id": true
+        }, {
             "source_path": "sccm/core/plan-design/diagnostics/diagnostics-and-usage-data.md",
             "redirect_url": "/mem/configmgr/core/plan-design/diagnostics/diagnostics-and-usage-data",
             "redirect_document_id": true
@@ -9941,6 +9993,34 @@
         }, {
             "source_path": "sccm/protect/deploy-use/windows-hello-for-business-settings.md",
             "redirect_url": "/mem/configmgr/protect/deploy-use/windows-hello-for-business-settings",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/protect/deploy-use/bitlocker/customize-self-service-portal.md",
+            "redirect_url": "/mem/configmgr/protect/deploy-use/bitlocker/customize-self-service-portal",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/protect/deploy-use/bitlocker/deploy-management-agent.md",
+            "redirect_url": "/mem/configmgr/protect/deploy-use/bitlocker/deploy-management-agent",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/protect/deploy-use/bitlocker/encrypt-recovery-data.md",
+            "redirect_url": "/mem/configmgr/protect/deploy-use/bitlocker/encrypt-recovery-data",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/protect/deploy-use/bitlocker/helpdesk-portal.md",
+            "redirect_url": "/mem/configmgr/protect/deploy-use/bitlocker/helpdesk-portal",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/protect/deploy-use/bitlocker/self-service-portal.md",
+            "redirect_url": "/mem/configmgr/protect/deploy-use/bitlocker/self-service-portal",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/protect/deploy-use/bitlocker/setup-websites.md",
+            "redirect_url": "/mem/configmgr/protect/deploy-use/bitlocker/setup-websites",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/protect/deploy-use/bitlocker/view-reports.md",
+            "redirect_url": "/mem/configmgr/protect/deploy-use/bitlocker/view-reports",
             "redirect_document_id": true
         }, {
             "source_path": "sccm/protect/plan-design/bitlocker-management.md",
