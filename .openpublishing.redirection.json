@@ -1963,6 +1963,42 @@
             "redirect_url": "/mem/configmgr/core/migration/security-and-privacy-for-migration",
             "redirect_document_id": true
         }, {
+            "source_path": "sccm/core/misc/cm07-eos.md",
+            "redirect_url": "/mem/configmgr/core/misc/cm07-eos",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/misc/in-console-documentation.md",
+            "redirect_url": "/mem/configmgr/core/misc/in-console-documentation",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/misc/learn-more-about-available-updates.md",
+            "redirect_url": "/mem/configmgr/core/misc/learn-more-about-available-updates",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/misc/mms2019docathon.md",
+            "redirect_url": "/mem/configmgr/core/misc/mms2019docathon",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/misc/online-documentation.md",
+            "redirect_url": "/mem/configmgr/core/misc/online-documentation",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/misc/pre-release-construction.md",
+            "redirect_url": "/mem/configmgr/core/misc/pre-release-construction",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/misc/system-center-configuration-manager.md",
+            "redirect_url": "/mem/configmgr/core/misc/system-center-configuration-manager",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/misc/user-experience-analytics-preview.md",
+            "redirect_url": "/mem/configmgr/core/misc/user-experience-analytics-preview",
+            "redirect_document_id": true
+        }, {
+            "source_path": "sccm/core/misc/whats-new-endpoint-analytics.md",
+            "redirect_url": "/mem/configmgr/core/misc/whats-new-endpoint-analytics",
+            "redirect_document_id": true
+        }, {
             "source_path": "sccm/core/plan-design/choose-a-device-management-solution.md",
             "redirect_url": "/mem/configmgr/core/plan-design/choose-a-device-management-solution",
             "redirect_document_id": true
